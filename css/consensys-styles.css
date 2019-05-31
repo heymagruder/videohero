@@ -1,0 +1,66 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  opacity: 0.1;
+}
+
+.full-width-video {
+  background-color: #121212;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  color: #fff;
+  margin-top: 100px;
+}
+
+.content h1 {
+  font-family: Graphik,Arial,Helvetica,sans-serif;
+  font-weight: 300;
+  font-size: 82px;
+  letter-spacing: .2px;
+  line-height: 82px;
+}
+
+.content h4 {
+  font-family: Graphik,Arial,Helvetica,sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: .2px;
+  line-height: 25px;
+  padding-bottom: 20px;
+  width: 85%;
+}
+
+.cta {
+    align-items: center;
+    border-radius: .25rem;
+    height: 20px;
+    justify-content: center;
+    padding: 17px 34px;
+    text-transform: uppercase;
+    transition: color .25s ease,background-color .25s ease,border-color .25s ease;
+    font-family: Graphik,Arial,Helvetica,sans-serif;
+    font-weight: 600;
+    background-color: #2c56dd;
+    color: #fff;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.logo-class {
+  margin-top: 60px;
+  margin-left: 60px;
+  width: 100px;
+}
+
+.menu-class {
+  margin-top: 70px;
+  margin-right: 60px;
+  width: 60px;
+  float: right;
+}
