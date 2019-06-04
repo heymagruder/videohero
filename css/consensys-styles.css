@@ -16,6 +16,7 @@
 .content {
   color: #fff;
   margin-top: 100px;
+  margin-bottom: 120px;
 }
 
 .content h1 {
@@ -64,3 +65,27 @@
   width: 60px;
   float: right;
 }
+
+.btm-ctas {
+  color: #ffffff;
+}
+
+.btm-ctas p {
+font-size: 13px;
+}
+
+
+
+#t {
+  line-height: 88px;
+  font-size: 74px;
+/*  color: #00fd55;*/
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+
+#t::before {
+  margin-right: 10px;
+}
+
+

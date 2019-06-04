@@ -34,21 +34,56 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="full-width-video">
     <video autoplay muted loop id="myVideo">
-  <source src="video/video.mp4" type="video/mp4">
+      <source src="video/video.mp4" type="video/mp4">
     </video>
 
     <div class="u-full-width">
       <img class="logo-class"src="images/logo.png">
       <img class="menu-class"src="images/menu.png">
     </div>
-  </div>
 
     <div class="container content offset-by-two seven columns">
-      <h1>Harness the power of <strong>Ethereum</strong>.</h1>
+      <div id="t" class="terminal"></div>
+<!--       <h1>Harness the power of <strong>Ethereum</strong>.</h1> -->
       <h4>ConsenSys is a global blockchain technology company building the infrastructure, applications, and practices that enable a decentralized world.</h4>
       <a class="cta" href="#">LEARN MORE</a>
     </div>
-  </div>
+
+    <div class="container offset-by-two tweleve columns btm-ctas">
+        <div class="three columns">
+          <h5><strong>Enterprise</strong></h5>
+          <p>We build customizable Enterprise Ethereum solutions.</p>
+          <p>ConsenSys Solutions →</p>
+        </div>
+        <div class="three columns">
+          <h5><strong>Startups</strong></h5>
+          <p>We invest in and accelerate blockchain startups.</p>
+          <p>ConsenSys Labs →</p>
+        </div>
+        <div class="three columns">
+          <h5><strong>Security</strong></h5>
+          <p>We enhance smart contract security.</p>
+          <p>ConsenSys Diligence →</p>
+        </div>
+        <div class="three columns">
+          <h5><strong>Education</strong></h5>
+          <p>We offer online and in-person blockchain education. </p>
+          <p>ConsenSys Academy →</p>
+        </div>
+    </div>
+
+  <script type="text/javascript" src="js/typewriting.js"></script>
+  <script>
+var typeWriting = new TypeWriting({
+    targetElement   : document.getElementsByClassName('terminal')[0],
+    inputString     : 'Harness the power of <strong>Ethereum</strong>.',
+    typing_interval : 130,
+    blink_interval  : '1s',
+    cursor_color    : '#00fd55',
+}, function() {
+    console.log("END");
+});
+</script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
