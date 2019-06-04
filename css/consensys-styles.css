@@ -70,11 +70,16 @@
   color: #ffffff;
 }
 
-.btm-ctas p {
+.btm-ctas .blurb {
 font-size: 13px;
 }
 
-
+.text-button {
+  font-size: 10px;
+  font-weight: 600;
+  color: #497BF8;
+  text-transform: uppercase;
+}
 
 #t {
   line-height: 88px;
