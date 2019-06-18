@@ -45,7 +45,7 @@
 	let defaults = {
 		targetElement	: null,
 		inputString 	: '',
-		typingInterval	: 150,
+		typingInterval	: 100,
 		blinkInterval	: '0.7s',
 		cursorColor		: 'black',
 		pluginCallback	: () => {},
